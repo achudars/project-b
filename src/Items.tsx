@@ -33,8 +33,8 @@ export const Items = () => {
           >
             <ImageLabel>{item.title}</ImageLabel>
             <img
-              src={`./public/images/${item.imgFolder}/${item.mainImg}`}
-              srcSet={`./public/images/${item.imgFolder}/${item.mainImg}`}
+              src={`./images/${item.imgFolder}/${item.mainImg}`}
+              srcSet={`./images/${item.imgFolder}/${item.mainImg}`}
               alt={item.title}
               loading="lazy"
               style={{
