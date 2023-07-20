@@ -4,10 +4,16 @@ import items from "./data/data.json";
 import { ImageLabel } from "./ImageLabel.tsx";
 
 export const Items = () => (
-  <Box sx={{ width: 800, minHeight: 800 }}>
+  <Box sx={{ width: 1000, minHeight: 800 }}>
     <Masonry columns={3} spacing={2}>
       {items.map((item, index) => (
-        <div key={index}>
+        <div
+          key={index}
+          style={{
+            border: "3px solid tomato",
+            background: "FFF",
+          }}
+        >
           <ImageLabel>{item.title}</ImageLabel>
           <img
             src={`./src/images/${item.imgFolder}/${item.mainImg}`}
@@ -18,6 +24,7 @@ export const Items = () => (
               borderBottomLeftRadius: 2,
               borderBottomRightRadius: 2,
               display: "block",
+
               width: "100%",
             }}
           />

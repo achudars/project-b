@@ -1,23 +1,51 @@
 [
   {
-    "mainImg": "20220120-Zerode-Katipo-XTR-Fox-38-1.jpg",
+    "mainImg": "Katipo+475+Trail+Belt.jpg",
     "imgFolder": "zerode-katipo-xtr-fox-38",
     "title": "Zerode Katipo 29” MTB",
     "subText": "The Zerode Katipo is an ultra capable big-wheeled monster, ready to be pointed in the face of the ugliest terrain you can find",
-    "price": "7,995.00",
-    "Frame": "Carbon",
-    "Colour": "Peppermint Rascal",
-    "WheelSize": "29”",
-    "FrontTravel": "Fox 38 Float Factory 170mm",
-    "RearTravel": " Fox Float X2 Factory 160mm",
-    "Gearbox": " Pinion 9sp Internal Gearbox with grip shift",
-    "Transmission": "Gates Carbon Belt Drive (39/39T Pulleys)",
-    "Brakes": "Shimano XTR 9120 Trail Brakes",
-    "Wheels": "LIOS 35mm Carbon Rims laced on Pinion Hubs",
-    "Tyres": "MAXXIS DHF/DHR",
-    "Handlebar": "One Up Carbon",
-    "Stem": "One Up Alloy",
-    "DropperPost": "One Up 180mm",
-    "Saddle": "Burgtec Cloud"
+    "price": "£7,995.00",
+    "specifications" : {
+      "Brakes": "Shimano XTR 9120 Trail Brakes",
+      "Colour": "Peppermint Rascal",
+      "DropperPost": "One Up 180mm",
+      "Frame": "Carbon",
+      "FrontTravel": "Fox 38 Float Factory 170mm",
+      "Gearbox": " Pinion 9sp Internal Gearbox with grip shift",
+      "Handlebar": "One Up Carbon",
+      "RearTravel": " Fox Float X2 Factory 160mm",
+      "Saddle": "Burgtec Cloud",
+      "Stem": "One Up Alloy",
+      "Transmission": "Gates Carbon Belt Drive (39/39T Pulleys)",
+      "Tyres": "MAXXIS DHF/DHR",
+      "WheelSize": "29”",
+      "Wheels": "LIOS 35mm Carbon Rims laced on Pinion Hubs"
+    }
+  },
+  {
+    "mainImg": "MY24_Hightower_CC_XX_AXS_RSV_OceanBlue.webp",
+    "imgFolder": "santa-cruz-hightower",
+    "title": "Santa Cruz Hightower 3 XX AXS RSV",
+    "subText": "Greatest hits compiled into one bike - just hit play",
+    "price": "£4,249.00",
+    "url": "https://www.santacruzbicycles.com/en-GB/bikes/hightower?color=Gloss%20Ocean%20Blue",
+    "specifications" : {
+      "BB Shell": "73mm Threaded",
+      "Brake Mount": "180 PM",
+      "Eye to Eye length": "210mm",
+      "Fork Compatibility": "150-160mm",
+      "Fork Offset": "44mm",
+      "Front Derailleur": "No compatibility",
+      "Headset/Headtube": "Integrated (IS41/52)",
+      "Max Chainring Size": "34t",
+      "Max Tire Size": "2.5\"",
+      "Seat Clamp": "36.4mm",
+      "Seat Post": "31.6mm",
+      "Shock Mounting Bushing Front": "30x8",
+      "Shock Mounting Bushing Rear": "30x8 (bearing compatible)",
+      "Stroke": "55mm",
+      "Suspension System": "VPP",
+      "Water Bottle Mounts": "1"
+    }
   }
 ]
