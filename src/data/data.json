@@ -9,9 +9,9 @@
     "specifications" : {
       "Brakes": "Shimano XTR 9120 Trail Brakes",
       "Colour": "Peppermint Rascal",
-      "DropperPost": "One Up 180mm",
+      "Dropper Post": "One Up 180mm",
       "Frame": "Carbon",
-      "FrontTravel": "Fox 38 Float Factory 170mm",
+      "Front Travel": "Fox 38 Float Factory 170mm",
       "Gearbox": " Pinion 9sp Internal Gearbox with grip shift",
       "Handlebar": "One Up Carbon",
       "RearTravel": " Fox Float X2 Factory 160mm",
@@ -19,7 +19,7 @@
       "Stem": "One Up Alloy",
       "Transmission": "Gates Carbon Belt Drive (39/39T Pulleys)",
       "Tyres": "MAXXIS DHF/DHR",
-      "WheelSize": "29”",
+      "Wheel Size": "29”",
       "Wheels": "LIOS 35mm Carbon Rims laced on Pinion Hubs"
     }
   },
@@ -50,10 +50,44 @@
     }
   },
   {
+    "mainImg": "Nukeproof-Reactor-290-RS-Carbon-Bike-X01-Eagle-01_2667x2000.webp",
+    "imgFolder": "reactor-290-carbon",
+    "title": "Nukeproof Reactor 290 Carbon 2022",
+    "subText": "From concept through to design, the Kinematics, the geometry and specification; the Reactor is designed from the ground up to be the ultimate aggressive trail bike. It is at home on technical climbs, but happiest when thrashing the most technical trails you can point it at.",
+    "price": "£5,999.99",
+    "url": "https://nukeproof.com/products/2022-reactor-290-carbon?variant=42387380928748",
+    "specifications" : {
+      "Material": 	"Ultra Strong T700/800 Monocoque Carbon Fibre",
+      "Fork Travel": 	"140mm Elite & Factory, ST 130mm, RS 150mm",
+      "Axle to Crown": 	"554mm (RS 564mm)",
+      "Fork Offset": 	"44mm",
+      "Rear Travel": 	"130mm",
+      "Wheels Size": 	"29\"",
+      "Max Tyre Size": 	"2.6\"",
+      "Recommended Shock Sag (Measured seated)": 	"30%",
+      "Shock Size": 	"210x50mm",
+      "Shock Hardware F": 	"25x8mm",
+      "Shock Hardware R": 	"30x8mm",
+      "Sizing": 	"M/L/XL",
+      "Headtube": 	"44-56mm Tapered Semi-Integrated",
+      "Headset": 	"ZS44-28.6 - T2 / ZS56/40 - B8",
+      "Bearings Required": 	"2x (6902 2RS), 4x (6800 2RS), 4x (6901 2RS)",
+      "Seatpost": 	"31.6mm (Internal Routing for Dropper Seatpost)",
+      "Seat Clamp": 	"36.4mm",
+      "Bottom Bracket": 	"Threaded 73mm BSA",
+      "Rear Hub": 	"Boost 148x12mm",
+      "Rear Axle": 	"SRAM Maxle Stealth M12x1.75 180mm (Thread Length 20mm)",
+      "Chain Guide": 	"ISCG05",
+      "Max Chainring Size": 	"34T/32T Oval",
+      "Brake Mount": 	"180mm Direct Post",
+      "Protection": 	"3D Contoured Rubber/ Clear Frame Protection for DT/SS/CS"
+    }
+  },
+  {
     "mainImg": "20211018-LIOS-Thunderbolt-Blue-XT-Fox-38-Float-X-Images-1.jpg",
     "imgFolder": "lios-thunderbolt-blue-xt-fox-38-float-x",
     "title": "LIOS Thunderbolt",
-    "subText": "Greatest hits compiled into one bike - just hit play",
+    "subText": "",
     "price": "£4,995.00",
     "url": "https://www.liosbikes.com/thunderbolt",
     "specifications" : {
@@ -61,17 +95,17 @@
       "Cassette": "Shimano XT M8100 12 Speed (10-51T)",
       "Colour": "Blue",
       "Crank": "Shimano XT M8100 (30T)",
-      "DropperPost": "One Up 180mm",
+      "Dropper Post": "One Up 180mm",
       "Frame": "Carbon / Large (19”)",
-      "FrontTravel": "Fox 36 Factory 160mm",
+      "Front Travel": "Fox 36 Factory 160mm",
       "Gears": "Shimano XT M8100 12 Speed",
       "Grips": "One Up",
       "Handlebar": "Burgtec Ride Wide Enduro Handlebar",
-      "RearTravel": "Fox Float X Factory 150mm",
+      "Rear Travel": "Fox Float X Factory 150mm",
       "Saddle": "Burgtec Cloud (Titanium)",
       "Stem": "Burgtec Enduro MK3 50mm",
       "Tyres": "Pirelli Scorpion Enduro (29x2.4”)",
-      "WheelSize": "29”",
+      "Wheel Size": "29”",
       "Wheels": "Shimano MT8120"
     }
   }
