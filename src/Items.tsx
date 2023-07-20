@@ -25,8 +25,10 @@ export const Items = () => {
           <div
             key={index}
             style={{
-              border: "3px solid tomato",
-              background: "FFF",
+              border: "8px solid tomato",
+              borderRadius: "8px",
+              padding: "8px",
+              background: "#FFF",
             }}
           >
             <ImageLabel>{item.title}</ImageLabel>
@@ -38,8 +40,8 @@ export const Items = () => {
               style={{
                 borderBottomLeftRadius: 2,
                 borderBottomRightRadius: 2,
+                borderRadius: "8px",
                 display: "block",
-
                 width: "100%",
               }}
             />

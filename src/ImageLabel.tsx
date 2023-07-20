@@ -11,4 +11,5 @@ export const ImageLabel = styled(Paper)(({ theme }) => ({
   borderTopRightRadius: 2,
   borderBottomLeftRadius: 0,
   borderBottomRightRadius: 0,
+  marginBottom: "18px",
 }));
