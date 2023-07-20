@@ -10,5 +10,5 @@
 # tech stack
 
 - Vite
-- Preact
+- React
 - TypeScript

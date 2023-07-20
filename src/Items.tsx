@@ -21,7 +21,7 @@ export const Items = () => {
   return (
     <Box sx={{ width: 800, minHeight: 800 }}>
       <Masonry columns={1} spacing={2}>
-        {(bicycles as Bicycle[]).map((item, index) => (
+        {(bicycles as unknown as Bicycle[]).map((item, index) => (
           <div
             key={index}
             style={{
