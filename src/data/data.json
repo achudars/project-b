@@ -120,6 +120,42 @@
     }
   },
   {
+    "mainImg": "96322-00_SJ-EVO-SW-BLKLQDMET-CARB-BLK_HERO.webp",
+    "imgFolder": "s-works-stumpjumper-evo",
+    "title": "S-Works Stumpjumper EVO",
+    "subText": "The S-Works Stumpjumper EVO is much more than just a trail bike; it’s a shred-sled built to full-send down the gnarliest trails. Featuring an all-new design, with an adjustable head tube angle, 150mm of performance tuned travel, and the adaptability of S-Sizing, this thing is an absolute ripper. The S-Works Stumpjumper EVO—get rowdy.",
+    "price": "£8,499.00",
+    "url": "https://www.specialized.com/gb/en/s-works-stumpjumper-evo/p/199753?color=320263-199753&searchText=96322-0005",
+    "specifications": {
+      "Rims": "Roval Traverse SL 29, hookless carbon, 30mm inner width, 2Bliss Ready, hand-built, 28h",
+      "Front Hub": "Roval Traverse SL, sealed cartridge bearings, 15mm thru-axle, 110mm spacing",
+      "Rear Hub": "Roval Traverse SL, DT Swiss Star Ratchet, 54t engagement, SRAM XD driver body, 12mm thru-axle, 148mm spacing",
+      "Spokes": "DT Competition Race",
+      "Front Tire": "Butcher, GRID TRAIL casing, GRIPTON® T9 compound, 2Bliss Ready, 29x2.3\"",
+      "Rear Tire": "Eliminator, GRID TRAIL casing, GRIPTON® T7 compound, 29x2.3\"",
+      "Inner Tubes": "Standard, Presta Valve",
+      "Rear Derailleur": "SRAM XX1 Eagle AXS",
+      "Shift Levers": "SRAM Eagle AXS Rocker Paddle",
+      "Cassette": "Sram XG-1299, 12-Speed, 10-52t",
+      "Chain": "SRAM XX1 Eagle",
+      "Crankset": "SRAM X01 Eagle, DUB, S1:165mm, S2-S5: 170mm, S6: 175mm",
+      "Chainrings": "Alloy, 30T",
+      "Bottom Bracket": "SRAM DUB, BSA 73mm, Threaded",
+      "Front Brake": "SRAM Code RSC, 4-piston caliper, hydraulic disc, 200mm",
+      "Rear Brake": "SRAM Code RSC, 4-piston caliper, hydraulic disc, 200mm",
+      "Stem": "Deity, 35.0mm",
+      "Handlebars": "Roval Traverse SL Carbon, riser bar, 6-degree upsweep, 8-degree backsweep, 30mm rise, 800mm, 35.0mm",
+      "Grips": "Deity, Knuckleduster, Black",
+      "Saddle": "Bridge, 155/143mm, Hollow Ti-rails",
+      "SeatPost": "RockShox Reverb AXS, 30.9, 1X remote, (S1:100mm, S2: 125mm, S3: 150mm, S4-S6: 170mm)",
+      "Fork": "FOX FLOAT 36 Factory, GRIP2 damper, 15x110mm, 44mm offset, S1: 150mm of travel, S2-S6: 160mm of travel",
+      "Rear Shock": "FOX FLOAT X Factory, Rx Trail Tune, EVOL Air sleeve, 2-position lever w/ LSC adjustment, S1:210x50mm, S2-S6:210x55mm",
+      "Frame": "FACT 11m carbon chassis and rear-end, asymmetrical design, 29 Trail Geometry, SWAT™ Door integration, head tube angle adjustment, horst pivot BB adjustment, threaded BB, fully enclosed internal cable routing, 12x148mm dropouts, sealed cartridge bearing pivots, replaceable derailleur hanger, 150mm of travel",
+      "SWAT": "Increased-volume SWAT™ Door integration with 22oz SWAT™ Bladder",
+      "Seat Binder": "Alloy, 38.6mm"
+    }
+  },
+  {
     "mainImg": "20211018-LIOS-Thunderbolt-Blue-XT-Fox-38-Float-X-Images-1.jpg",
     "imgFolder": "lios-thunderbolt-blue-xt-fox-38-float-x",
     "title": "LIOS Thunderbolt",
@@ -144,14 +180,5 @@
       "Wheel Size": "29”",
       "Wheels": "Shimano MT8120"
     }
-  },
-  {
-    "mainImg": "",
-    "imgFolder": "",
-    "title": "",
-    "subText": "",
-    "price": "",
-    "url": "",
-    "specifications": {}
   }
 ]
