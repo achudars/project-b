@@ -5,6 +5,7 @@
     "title": "Zerode Katipo 29” MTB",
     "subText": "The Zerode Katipo is an ultra capable big-wheeled monster, ready to be pointed in the face of the ugliest terrain you can find",
     "price": "£7,995.00",
+    "url": "https://zerodebikes.com/katipo",
     "specifications" : {
       "Brakes": "Shimano XTR 9120 Trail Brakes",
       "Colour": "Peppermint Rascal",
@@ -27,7 +28,7 @@
     "imgFolder": "santa-cruz-hightower",
     "title": "Santa Cruz Hightower 3 XX AXS RSV",
     "subText": "Greatest hits compiled into one bike - just hit play",
-    "price": "£4,249.00",
+    "price": "£10,399 GBP",
     "url": "https://www.santacruzbicycles.com/en-GB/bikes/hightower?color=Gloss%20Ocean%20Blue",
     "specifications" : {
       "BB Shell": "73mm Threaded",
@@ -46,6 +47,32 @@
       "Stroke": "55mm",
       "Suspension System": "VPP",
       "Water Bottle Mounts": "1"
+    }
+  },
+  {
+    "mainImg": "20211018-LIOS-Thunderbolt-Blue-XT-Fox-38-Float-X-Images-1.jpg",
+    "imgFolder": "lios-thunderbolt-blue-xt-fox-38-float-x",
+    "title": "LIOS Thunderbolt",
+    "subText": "Greatest hits compiled into one bike - just hit play",
+    "price": "£4,995.00",
+    "url": "https://www.liosbikes.com/thunderbolt",
+    "specifications" : {
+      "Brakes": "Shimano XT M8120 4 Pot Brakes / 180mm Rotors",
+      "Cassette": "Shimano XT M8100 12 Speed (10-51T)",
+      "Colour": "Blue",
+      "Crank": "Shimano XT M8100 (30T)",
+      "DropperPost": "One Up 180mm",
+      "Frame": "Carbon / Large (19”)",
+      "FrontTravel": "Fox 36 Factory 160mm",
+      "Gears": "Shimano XT M8100 12 Speed",
+      "Grips": "One Up",
+      "Handlebar": "Burgtec Ride Wide Enduro Handlebar",
+      "RearTravel": "Fox Float X Factory 150mm",
+      "Saddle": "Burgtec Cloud (Titanium)",
+      "Stem": "Burgtec Enduro MK3 50mm",
+      "Tyres": "Pirelli Scorpion Enduro (29x2.4”)",
+      "WheelSize": "29”",
+      "Wheels": "Shimano MT8120"
     }
   }
 ]
