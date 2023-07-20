@@ -6,7 +6,7 @@
     "subText": "The Zerode Katipo is an ultra capable big-wheeled monster, ready to be pointed in the face of the ugliest terrain you can find",
     "price": "£7,995.00",
     "url": "https://zerodebikes.com/katipo",
-    "specifications" : {
+    "specifications": {
       "Brakes": "Shimano XTR 9120 Trail Brakes",
       "Colour": "Peppermint Rascal",
       "Dropper Post": "One Up 180mm",
@@ -30,7 +30,7 @@
     "subText": "Greatest hits compiled into one bike - just hit play",
     "price": "£10,399 GBP",
     "url": "https://www.santacruzbicycles.com/en-GB/bikes/hightower?color=Gloss%20Ocean%20Blue",
-    "specifications" : {
+    "specifications": {
       "BB Shell": "73mm Threaded",
       "Brake Mount": "180 PM",
       "Eye to Eye length": "210mm",
@@ -56,31 +56,67 @@
     "subText": "From concept through to design, the Kinematics, the geometry and specification; the Reactor is designed from the ground up to be the ultimate aggressive trail bike. It is at home on technical climbs, but happiest when thrashing the most technical trails you can point it at.",
     "price": "£5,999.99",
     "url": "https://nukeproof.com/products/2022-reactor-290-carbon?variant=42387380928748",
-    "specifications" : {
-      "Material": 	"Ultra Strong T700/800 Monocoque Carbon Fibre",
-      "Fork Travel": 	"140mm Elite & Factory, ST 130mm, RS 150mm",
-      "Axle to Crown": 	"554mm (RS 564mm)",
-      "Fork Offset": 	"44mm",
-      "Rear Travel": 	"130mm",
-      "Wheels Size": 	"29\"",
-      "Max Tyre Size": 	"2.6\"",
-      "Recommended Shock Sag (Measured seated)": 	"30%",
-      "Shock Size": 	"210x50mm",
-      "Shock Hardware F": 	"25x8mm",
-      "Shock Hardware R": 	"30x8mm",
-      "Sizing": 	"M/L/XL",
-      "Headtube": 	"44-56mm Tapered Semi-Integrated",
-      "Headset": 	"ZS44-28.6 - T2 / ZS56/40 - B8",
-      "Bearings Required": 	"2x (6902 2RS), 4x (6800 2RS), 4x (6901 2RS)",
-      "Seatpost": 	"31.6mm (Internal Routing for Dropper Seatpost)",
-      "Seat Clamp": 	"36.4mm",
-      "Bottom Bracket": 	"Threaded 73mm BSA",
-      "Rear Hub": 	"Boost 148x12mm",
-      "Rear Axle": 	"SRAM Maxle Stealth M12x1.75 180mm (Thread Length 20mm)",
-      "Chain Guide": 	"ISCG05",
-      "Max Chainring Size": 	"34T/32T Oval",
-      "Brake Mount": 	"180mm Direct Post",
-      "Protection": 	"3D Contoured Rubber/ Clear Frame Protection for DT/SS/CS"
+    "specifications": {
+      "Material": "Ultra Strong T700/800 Monocoque Carbon Fibre",
+      "Fork Travel": "140mm Elite & Factory, ST 130mm, RS 150mm",
+      "Axle to Crown": "554mm (RS 564mm)",
+      "Fork Offset": "44mm",
+      "Rear Travel": "130mm",
+      "Wheels Size": "29\"",
+      "Max Tyre Size": "2.6\"",
+      "Recommended Shock Sag (Measured seated)": "30%",
+      "Shock Size": "210x50mm",
+      "Shock Hardware F": "25x8mm",
+      "Shock Hardware R": "30x8mm",
+      "Sizing": "M/L/XL",
+      "Headtube": "44-56mm Tapered Semi-Integrated",
+      "Headset": "ZS44-28.6 - T2 / ZS56/40 - B8",
+      "Bearings Required": "2x (6902 2RS), 4x (6800 2RS), 4x (6901 2RS)",
+      "Seatpost": "31.6mm (Internal Routing for Dropper Seatpost)",
+      "Seat Clamp": "36.4mm",
+      "Bottom Bracket": "Threaded 73mm BSA",
+      "Rear Hub": "Boost 148x12mm",
+      "Rear Axle": "SRAM Maxle Stealth M12x1.75 180mm (Thread Length 20mm)",
+      "Chain Guide": "ISCG05",
+      "Max Chainring Size": "34T/32T Oval",
+      "Brake Mount": "180mm Direct Post",
+      "Protection": "3D Contoured Rubber/ Clear Frame Protection for DT/SS/CS"
+    }
+  },
+  {
+    "mainImg": "23_RZC_XR-profile-2920.jpg",
+    "imgFolder": "rift-zone-29-carbon-xr",
+    "title": "Rift Zone 29\" Carbon XR",
+    "subText": "The Rift Zone is our most speed oriented MultiTrac bike, created for the rider looking for the speed and roll over capabilities of 29” wheels in a trail capable package. Long, low, and slack trail geometry is more aggressive than an XC race bike for more control at top speed, and more fun while chasing seconds.",
+    "price": "£4,265.00",
+    "url": "https://www.marinbikes.com/gb/bikes/2023-rift-zone-29-carbon-xr",
+    "specifications": {
+      "Bottom Bracket": "MEGAEVO BB, 73mm BSA Threaded",
+      "Brake Levers": "Shimano XT Hydraulic, I-Spec EV",
+      "Brake, Front": "Shimano XT, 4-Piston Hydraulic Disc, 203mm Rotor",
+      "Brake, Rear": "Shimano XT, 4-Piston Hydraulic Disc, 180mm Rotor",
+      "Cassette": "Shimano Deore M6100, 12-Speed, 10-51T",
+      "Chain": "KMC X-12 Silver and Black",
+      "Crankset": "FSA Gradient, Modular 1x, 32T Direct Mount Chainring, MegaTooth Technology, MegaExo Spindle, Boost Spacing",
+      "Derailleur, Front": "-",
+      "Derailleur, Rear": "Shimano XT, 12-Speed, SGS",
+      "Extras": " Bolt-On Thru-Axle",
+      "Frame": "Unidirectional Carbon Fiber Front Triangle, Series 4 Alloy Rear End, 29” Wheels, 125mm Travel, MultiTrac Suspension Platform, 148x12mm Boost Thru-Axle, 73mm Threaded BB w/ ISCG05 Tabs",
+      "Front Suspension": "Fox 36 Performance Elite Float, 140mm Travel, GRIP 2 Damper, 110x15mm Kabolt Axle, 44mm Offset",
+      "Grips": "Marin Grizzly Lock On",
+      "Handlebar": "Marin Trail, 35mm Clamp, 7000 Alloy Bar, 800mm Length, 20mm Rise, 5 Degree Up, 8 Degree Back",
+      "Headset": "FSA No 42/47, Sealed Cartridge Bearings, 1 1/8”, x 1 1/2”",
+      "Hub, Rear": "Forged Alloy, 148x12mm,Disc, 32H, MS Freehub Body",
+      "Pedals": "-",
+      "Rear Suspension": "Fox Factory Series Coil, Coil Spring, Climb Switch, Rebound & Compression Adjustment, Custom Tune, 210x50mm, M8x30mm Top, M8x25mm Bottom, Spring rates: S = 350lb, M = 400lb, L = 450lb, XL = 500 lb",
+      "Rims": "Marin Aluminum Double Wall, 29mm Inner, Welded Joint, Disc Specific, Tubeless Compatible",
+      "Saddle": "Marin Trail Speed Concept Pro",
+      "Seatpost": "X-Fusion Manic, 1x Composite Remote, Size S 125mm Travel, Size M and L 150mm Travel, Size XL 170mm Travel, 30.9mm",
+      "Shift Lever": "Shimano SLX, 12-Speed, SL-7100R",
+      "Spoke, Nipples": "14g Black Stainless Steel",
+      "Stem": "Marin CNC, 35mm Length, 35mm Bar Bore",
+      "Tires": "Maxxis Assegai 29x2.5”, 3C MaxxGrip, EXO+, Tubeless Compatible",
+      "Hub, Front": "Forged Alloy, 148x12mm,Disc, 32H, MS Freehub Body"
     }
   },
   {
@@ -90,7 +126,7 @@
     "subText": "",
     "price": "£4,995.00",
     "url": "https://www.liosbikes.com/thunderbolt",
-    "specifications" : {
+    "specifications": {
       "Brakes": "Shimano XT M8120 4 Pot Brakes / 180mm Rotors",
       "Cassette": "Shimano XT M8100 12 Speed (10-51T)",
       "Colour": "Blue",
@@ -108,5 +144,14 @@
       "Wheel Size": "29”",
       "Wheels": "Shimano MT8120"
     }
+  },
+  {
+    "mainImg": "",
+    "imgFolder": "",
+    "title": "",
+    "subText": "",
+    "price": "",
+    "url": "",
+    "specifications": {}
   }
 ]
