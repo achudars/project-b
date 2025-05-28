@@ -22,7 +22,7 @@ const TextAndImageContainerRows = () => (
       <div className="py-12 md:py-20 border-t border-gray-800">
         {/* Section header */}
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h2 mb-4">Bicycles I like</h1>
+          <h2 className="h2 mb-4">Bicycles I like</h2>
           <p className="text-xl text-gray-400">
             Just a collection of bikes I think are cool
           </p>

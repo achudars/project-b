@@ -1,15 +1,26 @@
+@reference tailwind base;
+@reference tailwind components;
+@reference tailwind utilities;
+
 /* Switch element */
 .form-switch {
-    @apply relative select-none;
+    position: relative; /* relative */
+    user-select: none; /* select-none */
     width: 60px;
 }
 
 .form-switch label {
-    @apply block overflow-hidden cursor-pointer h-8 rounded-full;
+    display: block; /* block */
+    overflow: hidden; /* overflow-hidden */
+    cursor: pointer; /* cursor-pointer */
+    height: 2rem; /* h-8 */
+    border-radius: 9999px; /* rounded-full */
 }
 
 .form-switch label > span:first-child {
-    @apply absolute block rounded-full;
+    position: absolute; /* absolute */
+    display: block; /* block */
+    border-radius: 9999px; /* rounded-full */
     width: 28px;
     height: 28px;
     top: 2px;
@@ -19,9 +30,10 @@
 }
 
 .form-switch input[type="checkbox"]:checked + label {
-    @apply bg-purple-600;
+    background-color: #8D8DFF; /* bg-purple-600 */
 }
 
 .form-switch input[type="checkbox"]:checked + label > span:first-child {
     left: 30px;
 }
+

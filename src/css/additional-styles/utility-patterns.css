@@ -1,42 +1,64 @@
+@reference tailwind base;
+@reference tailwind components;
+@reference tailwind utilities;
+
 /* Typography */
 .h1 {
-    @apply text-4xl font-extrabold leading-tight tracking-tighter;
+    font-size: 2.5rem; /* text-4xl */
+    font-weight: 800; /* font-extrabold */
+    line-height: 1.25; /* leading-tight */
+    letter-spacing: -0.025em; /* tracking-tighter */
 }
 
 .h2 {
-    @apply text-3xl font-extrabold leading-tight tracking-tighter;
+    font-size: 2rem; /* text-3xl */
+    font-weight: 800; /* font-extrabold */
+    line-height: 1.25; /* leading-tight */
+    letter-spacing: -0.025em; /* tracking-tighter */
 }
 
 .h3 {
-    @apply text-3xl font-bold leading-tight;
+    font-size: 2rem; /* text-3xl */
+    font-weight: 700; /* font-bold */
+    line-height: 1.25; /* leading-tight */
 }
 
 .h4 {
-    @apply text-2xl font-bold leading-snug tracking-tight;
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 700; /* font-bold */
+    line-height: 1.375; /* leading-snug */
+    letter-spacing: -0.025em; /* tracking-tight */
 }
 
-@screen md {
+@media (min-width: 768px) {
     .h1 {
-        @apply text-5xl;
+        font-size: 3.25rem; /* text-5xl */
     }
 
     .h2 {
-        @apply text-4xl;
+        font-size: 2.5rem; /* text-4xl */
     }
 }
 
 /* Buttons */
 .btn,
 .btn-sm {
-    @apply font-medium inline-flex items-center justify-center border border-transparent rounded-sm leading-snug transition duration-150 ease-in-out;
+    font-weight: 500; /* font-medium */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 0.125rem; /* rounded-sm */
+    line-height: 1.375; /* leading-snug */
+    transition: all 150ms ease-in-out;
 }
 
 .btn {
-    @apply px-8 py-3;
+    padding: 0.75rem 2rem; /* px-8 py-3 */
 }
 
 .btn-sm {
-    @apply px-4 py-2;
+    padding: 0.5rem 1rem; /* px-4 py-2 */
 }
 
 /* Forms */
@@ -46,7 +68,20 @@
 .form-select,
 .form-checkbox,
 .form-radio {
-    @apply bg-transparent border border-gray-700 focus:border-gray-500;
+    background-color: transparent; /* bg-transparent */
+    border: 1px solid; /* border */
+    border-color: #33363A; /* border-gray-700 */
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-multiselect:focus,
+.form-select:focus,
+.form-checkbox:focus,
+.form-radio:focus {
+    border-color: #707D86; /* focus:border-gray-500 */
+    outline: none;
+    box-shadow: none; /* ring-0 */
 }
 
 .form-input,
@@ -54,26 +89,27 @@
 .form-multiselect,
 .form-select,
 .form-checkbox {
-    @apply rounded-sm;
+    border-radius: 0.125rem; /* rounded-sm */
 }
 
 .form-input,
 .form-textarea,
 .form-multiselect,
 .form-select {
-    @apply py-3 px-4;
+    padding: 0.75rem 1rem; /* py-3 px-4 */
 }
 
 .form-input,
 .form-textarea {
-    @apply placeholder-gray-500;
+    color: #707D86; /* placeholder-gray-500 */
 }
 
 .form-select {
-    @apply pr-10;
+    padding-right: 2.5rem; /* pr-10 */
 }
 
 .form-checkbox,
 .form-radio {
-    @apply text-purple-600;
+    color: #8D8DFF; /* text-purple-600 */
 }
+
