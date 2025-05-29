@@ -12,3 +12,7 @@
 - Vite
 - React
 - TypeScript
+
+# Preview
+
+![Project H Preview](./img.png)
