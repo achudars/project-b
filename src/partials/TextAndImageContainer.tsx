@@ -25,8 +25,9 @@ const TextAndImageContainer = ({
   const displaySpecs = (featured.length > 0 ? featured : allSpecs).slice(0, 3);
 
   const imageBlock = (
+    <div className="flex items-center justify-center px-6 py-4 sm:px-10 sm:py-6">
     <div
-      className="relative overflow-hidden rounded-2xl bg-gray-800/40 aspect-[4/3]"
+      className="relative w-4/5 overflow-hidden rounded-2xl bg-gray-800/40 aspect-[4/3]"
       data-aos="fade-up"
     >
       <img
@@ -38,6 +39,7 @@ const TextAndImageContainer = ({
       />
       {/* Vignette */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-900/50 via-transparent to-transparent" />
+    </div>
     </div>
   );
 
