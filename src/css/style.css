@@ -6,20 +6,42 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Ensure dark background is applied */
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #151719 !important; /* bg-gray-900 equivalent */
-  color: #e5e7eb !important; /* text-gray-200 equivalent */
+  background-color: #151719;
+  color: #d9e3ea;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
 }
 
-/* Additional Tailwind directives */
-@layer utilities {
-    .rtl {
-        direction: rtl;
-    }
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
+::-webkit-scrollbar-track {
+  background: #151719;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #33363a;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #55595f;
+}
+
+/* Alpine.js */
 [x-cloak=""] {
-    display: none;
+  display: none;
+}
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
 }

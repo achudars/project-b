@@ -4,61 +4,76 @@
 
 /* Typography */
 .h1 {
-    font-size: 2.5rem; /* text-4xl */
-    font-weight: 800; /* font-extrabold */
-    line-height: 1.25; /* leading-tight */
-    letter-spacing: -0.025em; /* tracking-tighter */
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.04em;
 }
 
 .h2 {
-    font-size: 2rem; /* text-3xl */
-    font-weight: 800; /* font-extrabold */
-    line-height: 1.25; /* leading-tight */
-    letter-spacing: -0.025em; /* tracking-tighter */
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
 }
 
 .h3 {
-    font-size: 2rem; /* text-3xl */
-    font-weight: 700; /* font-bold */
-    line-height: 1.25; /* leading-tight */
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
 }
 
 .h4 {
-    font-size: 1.5rem; /* text-2xl */
-    font-weight: 700; /* font-bold */
-    line-height: 1.375; /* leading-snug */
-    letter-spacing: -0.025em; /* tracking-tight */
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+}
+
+@media (min-width: 640px) {
+    .h1 {
+        font-size: 3.75rem;
+    }
+
+    .h3 {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 768px) {
     .h1 {
-        font-size: 3.25rem; /* text-5xl */
+        font-size: 4.75rem;
     }
 
     .h2 {
-        font-size: 2.5rem; /* text-4xl */
+        font-size: 3rem;
+    }
+
+    .h3 {
+        font-size: 2.25rem;
     }
 }
 
 /* Buttons */
 .btn,
 .btn-sm {
-    font-weight: 500; /* font-medium */
+    font-weight: 600;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     border: 1px solid transparent;
-    border-radius: 0.125rem; /* rounded-sm */
-    line-height: 1.375; /* leading-snug */
-    transition: all 150ms ease-in-out;
+    border-radius: 0.5rem;
+    line-height: 1.375;
+    transition: all 200ms ease;
 }
 
 .btn {
-    padding: 0.75rem 2rem; /* px-8 py-3 */
+    padding: 0.75rem 2rem;
 }
 
 .btn-sm {
-    padding: 0.5rem 1rem; /* px-4 py-2 */
+    padding: 0.5rem 1.25rem;
 }
 
 /* Forms */
@@ -68,9 +83,9 @@
 .form-select,
 .form-checkbox,
 .form-radio {
-    background-color: transparent; /* bg-transparent */
-    border: 1px solid; /* border */
-    border-color: #33363A; /* border-gray-700 */
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #33363A;
 }
 
 .form-input:focus,
@@ -79,9 +94,9 @@
 .form-select:focus,
 .form-checkbox:focus,
 .form-radio:focus {
-    border-color: #707D86; /* focus:border-gray-500 */
+    border-color: #707D86;
     outline: none;
-    box-shadow: none; /* ring-0 */
+    box-shadow: none;
 }
 
 .form-input,
@@ -89,14 +104,14 @@
 .form-multiselect,
 .form-select,
 .form-checkbox {
-    border-radius: 0.125rem; /* rounded-sm */
+    border-radius: 0.5rem;
 }
 
 .form-input,
 .form-textarea,
 .form-multiselect,
 .form-select {
-    padding: 0.75rem 1rem; /* py-3 px-4 */
+    padding: 0.75rem 1rem;
 }
 
 .form-input,

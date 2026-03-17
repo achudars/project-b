@@ -18,17 +18,18 @@ export interface Bicycle {
 
 const TextAndImageContainerRows = () => (
   <section>
-    <div className="max-w-6xl mx-auto px-4 sm:px-6">
-      <div className="py-12 md:py-20 border-t border-gray-800">
-        {/* Section header */}
-        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h2 className="h2 mb-4">Bicycles I like</h2>
-          <p className="text-xl text-gray-400">
-            Just a collection of bikes I think are cool
+    <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="border-t border-gray-800/50 pt-10 pb-20 md:pt-14 md:pb-32">
+        {/* Section label */}
+        <div className="mb-16 flex flex-col items-center gap-3 md:mb-24">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gray-500">
+            The Collection
           </p>
+          <div className="h-px w-10 bg-gradient-to-r from-transparent via-purple-500/60 to-transparent" />
         </div>
-        {/* Section body */}
-        <div className="grid gap-20">
+
+        {/* Bikes */}
+        <div className="flex flex-col gap-24 md:gap-36">
           {(bicycles as unknown as Bicycle[]).map((bike, index) => {
             const isImageOnTheRightSide = index % 2 === 0;
             return (
@@ -36,6 +37,7 @@ const TextAndImageContainerRows = () => (
                 <TextAndImageContainer
                   isImageOnTheRightSide={isImageOnTheRightSide}
                   bike={bike}
+                  index={index}
                 />
               </Fragment>
             );
