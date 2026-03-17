@@ -25,7 +25,7 @@ const TextAndImageContainerRows = () => (
           <h2 id="collection-heading" className="text-xs font-semibold uppercase tracking-[0.25em] text-gray-400">
             The Collection
           </h2>
-          <div className="h-px w-10 bg-gradient-to-r from-transparent via-purple-500/60 to-transparent" />
+          <div className="h-px w-10 bg-gradient-to-r from-transparent via-pink-500/60 to-transparent" />
         </div>
 
         {/* Bikes */}

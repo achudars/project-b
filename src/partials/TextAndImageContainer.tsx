@@ -22,10 +22,10 @@ const TextAndImageContainer = ({
 }) => {
   const allSpecs = Object.entries(bike.specifications);
   const featured = allSpecs.filter(([k]) => FEATURED_SPECS.includes(k));
-  const displaySpecs = (featured.length > 0 ? featured : allSpecs).slice(0, 3);
+  const displaySpecs = (featured.length > 0 ? featured : allSpecs).slice(0, 5);
 
   const imageBlock = (
-    <div className="flex items-center justify-center px-6 py-4 sm:px-10 sm:py-6">
+    <div className="flex items-center justify-center px-6 py-10 sm:px-10 sm:py-14">
       <div
         className="relative w-4/5 rounded-2xl bg-gray-800/40 overflow-hidden"
         data-aos="fade-up"
@@ -43,7 +43,7 @@ const TextAndImageContainer = ({
 
   const contentBlock = (
     <div
-      className="flex flex-col justify-center gap-6 px-5 sm:px-8 md:px-4 lg:px-10 mx-auto w-full max-w-[80%] md:max-w-none"
+      className="flex flex-col justify-center gap-8 px-5 sm:px-8 md:px-4 lg:px-10 mx-auto w-full max-w-[80%] md:max-w-none py-6"
       data-aos={isImageOnTheRightSide ? "fade-right" : "fade-left"}
     >
       {/* Index */}
@@ -51,35 +51,30 @@ const TextAndImageContainer = ({
         {String(index + 1).padStart(2, "0")}
       </span>
 
-      {/* Price */}
-      <div>
-        <span className="inline-flex items-center rounded-lg border border-purple-500/20 bg-purple-500/10 px-4 py-2 text-base font-semibold tracking-wide text-purple-300">
-          {bike.price}
-        </span>
+      {/* Title + Price */}
+      <div className="flex flex-col gap-2">
+        <h3 className="h3 text-gray-100">{bike.title}</h3>
+        <p className="text-2xl font-bold text-white">{bike.price}</p>
       </div>
-
-      {/* Title */}
-      <h3 className="h3 text-gray-100">{bike.title}</h3>
 
       {/* Description */}
       <p className="text-lg leading-relaxed text-gray-300">{bike.subText}</p>
 
-      {/* Spec chips */}
+      {/* Spec table — LIOS-style definition list with divider rows */}
       {displaySpecs.length > 0 && (
-        <div className="flex flex-wrap gap-2" role="list" aria-label="Key specifications">
+        <dl className="border-t border-gray-700/60" aria-label="Key specifications">
           {displaySpecs.map(([key, value]) => (
-            <span
+            <div
               key={key}
-              role="listitem"
-              className="inline-flex flex-col gap-0.5 rounded-xl border border-gray-700/40 bg-gray-800/50 px-3.5 py-2.5 text-xs"
+              className="flex items-start justify-between gap-6 border-b border-gray-700/60 py-4"
             >
-              <span className="font-semibold uppercase tracking-wide text-gray-400">
+              <dt className="shrink-0 pt-0.5 text-xs font-bold uppercase tracking-widest text-gray-500">
                 {key}
-              </span>
-              <span className="text-gray-200">{value}</span>
-            </span>
+              </dt>
+              <dd className="text-right text-sm text-gray-200">{value}</dd>
+            </div>
           ))}
-        </div>
+        </dl>
       )}
 
       {/* External link */}
@@ -89,7 +84,8 @@ const TextAndImageContainer = ({
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`View ${bike.title} on manufacturer website (opens in new tab)`}
-          className="group/link inline-flex items-center gap-2 rounded text-base font-semibold text-purple-300 underline underline-offset-4 decoration-purple-300/40 transition-all hover:text-purple-200 hover:decoration-purple-200/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+          className="group/link inline-flex items-center gap-2 text-base font-bold tracking-wide transition-opacity hover:opacity-75 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+          style={{ color: 'deeppink' }}
         >
           View Bike
           <svg
