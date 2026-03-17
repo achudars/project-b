@@ -17,14 +17,14 @@ export interface Bicycle {
 }
 
 const TextAndImageContainerRows = () => (
-  <section>
+  <section aria-labelledby="collection-heading">
     <div className="mx-auto max-w-6xl px-4 sm:px-6">
       <div className="border-t border-gray-800/50 pt-10 pb-20 md:pt-14 md:pb-32">
         {/* Section label */}
         <div className="mb-16 flex flex-col items-center gap-3 md:mb-24">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gray-500">
+          <h2 id="collection-heading" className="text-xs font-semibold uppercase tracking-[0.25em] text-gray-400">
             The Collection
-          </p>
+          </h2>
           <div className="h-px w-10 bg-gradient-to-r from-transparent via-purple-500/60 to-transparent" />
         </div>
 
