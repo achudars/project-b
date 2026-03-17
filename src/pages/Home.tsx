@@ -44,12 +44,6 @@ function Home() {
         <FeaturesZigZag />
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-800/50 py-8 px-4">
-        <p className="text-center text-sm text-gray-400">
-          Crafted with passion for riding
-        </p>
-      </footer>
     </div>
   );
 }
