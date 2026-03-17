@@ -54,11 +54,11 @@ const TextAndImageContainer = ({
       {/* Description */}
       <p className="text-lg leading-relaxed text-gray-300">{bike.subText}</p>
 
-      {/* Spec grid — 2 per row */}
+      {/* Spec list — stacked */}
       {displaySpecs.length > 0 && (
-        <dl className="grid grid-cols-2 gap-x-6 gap-y-0" aria-label="Key specifications">
+        <dl className="flex flex-col gap-4" aria-label="Key specifications">
           {displaySpecs.map(([key, value]) => (
-            <div key={key} className="border-b border-gray-700/60 py-3">
+            <div key={key}>
               <dt className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">{key}</dt>
               <dd className="text-sm text-gray-200">{value}</dd>
             </div>
