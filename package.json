@@ -16,11 +16,11 @@
     "aos": "^3.0.0-beta.6",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-router-dom": "^7.14.1",
+    "react-router-dom": "^7.14.2",
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.3",
+    "@tailwindcss/postcss": "^4.2.4",
     "@types/aos": "^3.0.7",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
@@ -37,7 +37,7 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "postcss": "^8.5.10",
     "prettier": "^3.8.3",
-    "tailwindcss": "^4.2.3",
+    "tailwindcss": "^4.2.4",
     "typescript": "^6.0.3",
     "vite": "^8.0.9"
   }
